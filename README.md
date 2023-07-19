@@ -22,7 +22,7 @@
   
   To use the deployed application, [click here](https://github.com/julie-mac/WordWeaver/deployments/activity_log?environment=word-weaver-text-editor). Once on the page, click "Install" on the main page to install the PWA. Alternatively, you can use the text editor in the browser. Whichever you choose, you should be able to edit the body of the text and the content will be stored in your local computer. When you refresh the page, you should be able to see what you've previously entered. 
 
-  ![Screenshot of WordWeaver](./public/assets/screenshot.png)
+  ![Screenshot of WordWeaver](./assets/screenshot.png)
 
 
   ## License
