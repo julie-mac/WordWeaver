@@ -9,9 +9,9 @@ window.addEventListener('beforeinstallprompt', (event) => {
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
-butInstall.addEventListener('click', () => {
+butInstall.addEventListener('click', async () => {
     butInstall.disabled = true;
-    const {choice} = window.deferredPrompt.prompt();
+    const {choice} = await window.deferredPrompt.prompt();
     
     if (choice.outcome === "accepted") {
         console.log("PWA has been successfully installed!");

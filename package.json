@@ -1,8 +1,9 @@
 {
   "name": "Word Weaver",
   "version": "1.0.0",
-  "description": "",
+  "description": "A text editor app",
   "main": "server.js",
+  "engines": "node ",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
